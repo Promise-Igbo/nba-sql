@@ -8,10 +8,10 @@ load_dotenv()
 Singleton settings instance.
 """
 
-DB_NAME = os.getenv('DB_NAME')
-DB_HOST = os.getenv('DB_HOST')
-DB_USER = os.getenv('DB_USER')
-DB_PASSWORD = os.getenv('DB_PASSWORD')
+DB_NAME = os.getenv('nba')
+DB_HOST = os.getenv('testserver09.mysql.database.azure.com')
+DB_USER = os.getenv('promise')
+DB_PASSWORD = os.getenv('password@123')
 
 
 class Settings:
@@ -58,9 +58,9 @@ class Settings:
             if not quiet:
                 print("Connecting to mysql database.")
             self.db = MySQLDatabase(
-                name,
-                host=host,
-                user=user,
-                password=password,
+                name=nba,
+                host=testserver09.mysql.database.azure.com,
+                user=promise,
+                password=password@123,
                 charset='utf8mb4'
             )
