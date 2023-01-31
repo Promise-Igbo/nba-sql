@@ -1,0 +1,13 @@
+Hello,
+
+I am the original author of this library. I monitor forks of the project and view the commits.
+
+Your recent PRs have your private Azure database credentials in a public repo, and I suggest you delete this repo
+and keep those files uncommited. For additional measures I'd change your MySQL password as well.
+
+Commits that caught my attention:
+ * https://github.com/Promise-Igbo/nba-sql/commit/24a1c423cc3949b1e7d48c73bbb56fa04a9ba3e5
+ * https://github.com/Promise-Igbo/nba-sql/commit/bbd6661b9a8a8625c60425fe5a236623e5a3ec1b
+
+Best,
+Matt
